@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 const getGeo = () => {
   return new Promise((resolve, reject) => {
     fetch("http://www.geoplugin.net/json.gp")
